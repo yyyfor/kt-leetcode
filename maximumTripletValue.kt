@@ -9,7 +9,7 @@ fun maximumTripletValue(nums: IntArray): Long {
       }
       var leftMax = 0
       for (j in 0 until i) { 
-        val temp = (leftMax - nums[i]) * rightMax
+        val temp = (leftMax - nums[i]).toLong() * rightMax
         if (temp > max) {
           max = temp
         }
