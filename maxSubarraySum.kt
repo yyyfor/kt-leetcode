@@ -23,7 +23,7 @@ fun maxSubarraySum(nums: IntArray, k: Int): Long {
 	return max
 }
 
-fun max(nums: IntArray):Long {
+fun max(nums: IntArray): Int {
 	var max = Long.MIN_VALUE
 	var sum = 0L
 	for (num in nums) {
