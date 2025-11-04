@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/count-unguarded-cells-in-the-grid/?envType=daily-question&envId=2025-11-02
+
 fun countUnguarded(m: Int, n: Int, guards: Array<IntArray>, walls: Array<IntArray>): Int {
 	val dp = Array(m) { IntArray(n) }
 	for(guard in guards) {
